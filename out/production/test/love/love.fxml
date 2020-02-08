@@ -1,0 +1,26 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<GridPane fx:controller="love.LoveController" stylesheets="/love/love.css"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <ComboBox fx:id="languageComboBox" id="comboId" layoutX="50.0" layoutY="50.0" prefHeight="20.0" prefWidth="200.0" promptText="Select language" onAction="#viewMessage">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="Sinhala" />
+                <String fx:value="Greek" />
+                <String fx:value="Yiddish" />
+                <String fx:value="Amharic" />
+                <String fx:value="Khmer" />
+                <String fx:value="Mongolian" />
+                <String fx:value="French" />
+                <String fx:value="Spanish" />
+                <String fx:value="Japanese" />
+                <String fx:value="English" />
+                <String fx:value="Bangla" />
+            </FXCollections>
+        </items>
+    </ComboBox>
+    <Label GridPane.rowIndex="2" fx:id="iLoveYou"/>
+</GridPane>

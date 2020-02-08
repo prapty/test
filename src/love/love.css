@@ -1,0 +1,8 @@
+.root {
+-fx-background-image: url("us.jpg");
+}
+}
+.label {
+-fx-font-size: 20;
+-fx-text-fill: white;
+}
