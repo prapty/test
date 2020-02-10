@@ -1,12 +1,18 @@
 package love;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 
 public class LoveController {
     public Label iLoveYou;
     public ComboBox languageComboBox;
+
+//    @FXML
+//    private void initialize() {
+//        PrefixSelectionCustomizer.customize(languageComboBox);
+//    }
 
     public void viewMessage(ActionEvent actionEvent) {
         String selected = languageComboBox.getValue().toString();
