@@ -9,16 +9,30 @@
     <ComboBox id="comboId" fx:id="languageComboBox" layoutX="50.0" layoutY="50.0" onAction="#viewMessage" prefHeight="20.0" prefWidth="200.0" promptText="Select language" GridPane.rowIndex="3">
         <items>
             <FXCollections fx:factory="observableArrayList">
-                <String fx:value="Sinhala" />
+                <String fx:value="Armenian" />
+                <String fx:value="Belarusian" />
+                <String fx:value="Czech" />
+                <String fx:value="Danish" />
+                <String fx:value="Esperanto" />
+                <String fx:value="Finnish" />
                 <String fx:value="Greek" />
-                <String fx:value="Yiddish" />
-                <String fx:value="Amharic" />
+                <String fx:value="Hausa" />
+                <String fx:value="Icelandic" />
+                <String fx:value="Javanese" />
                 <String fx:value="Khmer" />
+                <String fx:value="Lao" />
                 <String fx:value="Mongolian" />
-                <String fx:value="French" />
-                <String fx:value="Spanish" />
-                <String fx:value="Japanese" />
-                <String fx:value="English" />
+                <String fx:value="Nepali" />
+                <String fx:value="Pashto" />
+                <String fx:value="Russian" />
+                <String fx:value="Sinhala" />
+                <String fx:value="Tajik" />
+                <String fx:value="Ukrainian" />
+                <String fx:value="Vietnamese" />
+                <String fx:value="Welsh" />
+                <String fx:value="Xhosa" />
+                <String fx:value="Yiddish" />
+                <String fx:value="Zulu" />
                 <String fx:value="Bangla" />
             </FXCollections>
         </items>
